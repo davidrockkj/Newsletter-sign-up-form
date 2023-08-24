@@ -41,12 +41,14 @@ body
 h1
 {
     font-family: Roboto-Bold;
-    font-size: 62px;
+    /* font-size: 62px; */
+    font-size: 3.3rem;
 }
 
 p
 {
-    padding: 0 10px;
+    /* padding: 0 10px; */
+    font-size: .85rem;
 }
 
 .main-content
@@ -57,7 +59,13 @@ p
     width: 70vw;
     height: 80vh;
     background-color: var(--white);
+    border-radius: 20px;
 }
+
+    #description
+    {
+        margin-top: 20px;
+    }
 
     .aside-left, .aside-right
     {
@@ -73,24 +81,57 @@ p
 
     .aside-left
     {
-        background-color: red;
         padding: 0px 80px;
 
     }
 
-        table
+        /* table
         {
             width: 100%;
-            padding-left: 10px;
+            grid-column: 20px;
+        } */
+
+        .lists
+        {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            width: 100%;
+            height: 120px;
+            margin-top: 20px;
+            
+        }
+
+        .list
+        {
+            display: flex;
+            align-items: center;
+            position: relative;
+            width: 100%;
+
+        }
+
+        .list img#icon-topic
+        {
+            margin-right: 15px;
         }
 
         .input
         {
             display: flex;
             flex-direction: column;
-
             width: 100%;
-            /* position: relative; */
+            margin-top: 30px;
+        }
+
+        input
+        {
+            height: 50px;
+            border-radius: 5px;
+            border: 1px solid var(--grey);
+            color: var(--grey);
+            padding-left: 20px;
+            margin-top: 5px;
         }
 
         .input #input-email
@@ -99,7 +140,27 @@ p
             font-size: 14px;
         }
 
+        #btn 
+        {
+            color: var(--white);
+            font-family: Roboto-Bold;
+            
+            background-color: var(--dark-slate-grey);
+            height: 50px;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+
     .aside-right
     {
-        background-color: green;
+        display: flex;
+        /* justify-content: end; */
+        align-items: end;
+        padding-right: 1.5vw;
     }
+
+        .aside-right img
+        {
+            /* height: 500px; */
+            width: 30vw;
+        }
