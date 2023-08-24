@@ -1,0 +1,105 @@
+@font-face {
+    font-family: Roboto-Bold;
+    src: url(./assets/fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: Roboto-Regular;
+    src: url(./assets/fonts/Roboto-Regular.ttf);
+}
+
+:root
+{
+    --dark-slate-grey: hsl(234, 29%, 20%);
+    --charcoal-grey: hsl(235, 18%, 26%);
+    --grey: hsl(231, 7%, 60%);
+    --white: hsl(0, 0%, 100%);
+    --tomato: hsl(4, 100%, 67%);
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    width: auto;
+    height: 100vh;
+    background-color: var(--dark-slate-grey);
+    overflow: hidden;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: Roboto-Regular;
+    font-size: 16px;
+}
+
+h1
+{
+    font-family: Roboto-Bold;
+    font-size: 62px;
+}
+
+p
+{
+    padding: 0 10px;
+}
+
+.main-content
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70vw;
+    height: 80vh;
+    background-color: var(--white);
+}
+
+    .aside-left, .aside-right
+    {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        height: 100%;
+
+    }
+
+    .aside-left
+    {
+        background-color: red;
+        padding: 0px 80px;
+
+    }
+
+        table
+        {
+            width: 100%;
+            padding-left: 10px;
+        }
+
+        .input
+        {
+            display: flex;
+            flex-direction: column;
+
+            width: 100%;
+            /* position: relative; */
+        }
+
+        .input #input-email
+        {
+            font-family: Roboto-Bold;
+            font-size: 14px;
+        }
+
+    .aside-right
+    {
+        background-color: green;
+    }
