@@ -125,6 +125,15 @@ p
             margin-top: 30px;
         }
 
+        .input #error
+        {
+            position: absolute;
+            left: 190px;
+            font-family: Roboto-Bold;
+            font-size: 12px;
+            color: rgb(253, 47, 47);
+        }
+
         input
         {
             height: 50px;
@@ -133,6 +142,15 @@ p
             color: var(--grey);
             padding-left: 20px;
             margin-top: 5px;
+            box-decoration-break: none;
+        }
+
+        input:invalid, input#email:invalid:focus
+        {
+            color: rgb(253, 47, 47);
+            border: 1px solid rgb(253, 47, 47);
+            background-color: rgb(255, 175, 175);
+            outline-color: rgb(253, 47, 47);
         }
 
         .input #input-email
@@ -151,18 +169,23 @@ p
             border: none;
             border-radius: 5px;
             margin-top: 20px;
+            
+            outline: none;
+        }
+
+        .btn-active
+        {
+            background-color: var(--tomato)!important;
         }
 
     .aside-right
     {
-        /* width: 38%; */
         width: 328px;
         justify-content: center;
         align-items: end;
         align-content: center;
         overflow: hidden;
         padding-right: 2.5%;
-        /* background-color: cadetblue; */
         border-radius: 20px;
     }
 

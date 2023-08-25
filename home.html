@@ -32,37 +32,10 @@
                 </div>
             </div>
 
-            <!-- <table>
-                <tr>
-                    <td id="icon-topic">
-                        <img src="./assets/images/icon-list.svg">
-                    </td>
-                    <td id="icon-topic">
-                        Product discovery and building what matters
-                    </td>
-                </tr>
-                <tr>
-                    <td id="icon-topic">
-                        <img src="./assets/images/icon-list.svg">
-                    </td>
-                    <td>
-                        Measuring to ensure updates are a success
-                    </td>
-                </tr>
-                <tr>
-                    <td id="icon-topic">
-                        <img src="./assets/images/icon-list.svg">
-                    </td>
-                    <td>
-                        And much more!
-                    </td>
-                </tr>
-                    
-            </table> -->
-
             <div class="input">
+                <span id="error"></span>
                 <label id="input-email">E-mail address</label>
-                <input type="email" name="" id="" placeholder="email@company.com">
+                <input type="email" id="email" onfocusout="isitEmpty()" onblur="validateEmail()" placeholder="email@company.com">
 
                 <button id="btn">Subscribe to monthly newsletter</button>
             </div>
@@ -73,6 +46,42 @@
         </div>
         
     </div>
+
+
+    <script>
+
+        // var userInput = document.querySelector("#email")
+        
+        // userInput.addEventListener("focusout", isitEmpty())
+
+        function isitEmpty() {
+            var email = document.querySelector("#email")
+            var trimValue = email.value.trim()
+
+            if (trimValue !== "" && trimValue !== null){
+                validateEmail()
+            } else {
+                btn.classList.remove("btn-active")
+            }
+        }
+
+        function validateEmail(){
+            var email = document.querySelector("#email")
+            var error = document.querySelector("#error")
+            var btn = document.querySelector("#btn")
+
+            if (!email.checkValidity()){
+                error.innerHTML = "Valid email required"
+                btn.classList.remove("btn-active")
+                console.log(btn.classList.contains("btn-active"))
+            } else {
+                error.innerHTML = ""
+                btn.classList.add("btn-active")
+                console.log(btn.classList.contains("btn-active"))
+            }
+        }
+
+    </script>
 
 </body>
 </html>
