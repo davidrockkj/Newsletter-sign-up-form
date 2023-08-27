@@ -67,10 +67,19 @@ Built with html and css (till now).
     - active 'Subscribe' button
 
 <p float="left">
-    <img src="./screenshot/newsletter1.png" width="100">
-    <img src="./screenshot/newsletter2.png" width="100">
-    <img src="./screenshot/newsletter3.png" width="100">
+    <img src="./screenshot/newsletter1.png" width="300">
+    <img src="./screenshot/newsletter2.png" width="300">
+    <img src="./screenshot/newsletter3.png" width="300">
 </p>
 
-### 2nd Update
+### 2nd Update (08/25/23)
+- Built the Modal
+    - Created the static modal "pop-up"
+    - Stylized the modal
+
+
+<p float="left">
+    <img src="./screenshot/newsletter4.png" width="300">
+    <img src="./screenshot/newsletter5.png" width="300">
+</p>
 ...
