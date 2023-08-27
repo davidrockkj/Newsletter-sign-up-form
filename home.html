@@ -32,13 +32,15 @@
                 </div>
             </div>
 
-            <div class="input">
-                <span id="error"></span>
-                <label id="input-email">E-mail address</label>
-                <input type="email" id="email" onfocusout="isitEmpty()" onblur="validateEmail()" placeholder="email@company.com">
-
-                <button id="btn">Subscribe to monthly newsletter</button>
-            </div>
+            <form action="">
+                <div class="input">
+                    <span id="error"></span>
+                    <label id="input-email">E-mail address</label>
+                    <input tabindex="1" type="email" id="email" onblur="isitEmpty()" placeholder="email@company.com">
+    
+                    <button type="button" tabindex="2" id="btn">Subscribe to monthly newsletter</button>
+                </div>
+            </form>
         </div>
         
         <div class="aside-right">
@@ -51,12 +53,13 @@
         <div class="modal-content">
             <img src="./assets/images/icon-success.svg">
             <h1>Thanks for subscribing!</h1>
-            <p>A confirmation email has been sent to <b>emailtest@email.com</b>. Please, opne it and click on the button inside to confirm your subscription.</p>
-            <button id="btn">Dismiss message</button>
+            <p id="feedback-message"></p>
+            <button id="btn-modal" >Dismiss message</button>
         </div>
     </div>
 
-    <script>
+        <script src="./script.js"></script>
+    <!-- <script>
 
         // var userInput = document.querySelector("#email")
         
@@ -89,7 +92,7 @@
             }
         }
 
-    </script>
+    </script> -->
 
 </body>
 </html>
