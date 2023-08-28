@@ -13,9 +13,9 @@ Built with html and css (till now).
     - [Built With](#built-with)
     - [What I Learned](#what-i-learned)
 - [Updates](#updates)
-    - [1st Update](#1st-update)
-    - [2nd Update](#2nd-update)
-    - [3rd Update](#3rd-update)
+    - [1st Update](#1st-update-(08/25/23))
+    - [2nd Update](#2nd-update-(08/26/23))
+    - [3rd Update](#3rd-update-(08/27/23))
 
 
 ## Overview
@@ -45,6 +45,16 @@ Built with html and css (till now).
 - Javascript
 
 ### What I Learned
+
+- Onblur
+- Tabindex
+- Manipule HTML with JavaScript
+- Manipule CSS with JavaScript
+- Modal
+- Validate an input with JavaScript
+- button.disabled
+
+
 
 
 ## Updates
