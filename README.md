@@ -15,6 +15,7 @@ Built with html and css (till now).
 - [Updates](#updates)
     - [1st Update](#1st-update)
     - [2nd Update](#2nd-update)
+    - [3rd Update](#3rd-update)
 
 
 ## Overview
@@ -67,19 +68,38 @@ Built with html and css (till now).
     - active 'Subscribe' button
 
 <p float="left">
-    <img src="./screenshot/newsletter1.png" width="300">
-    <img src="./screenshot/newsletter2.png" width="300">
-    <img src="./screenshot/newsletter3.png" width="300">
+    <img src="./screenshot/newsletter1.png" width="200">
+    <img src="./screenshot/newsletter2.png" width="200">
+    <img src="./screenshot/newsletter3.png" width="200">
 </p>
 
-### 2nd Update (08/25/23)
+### 2nd Update (08/26/23)
 - Built the Modal
     - Created the static modal "pop-up"
     - Stylized the modal
 
 
 <p float="left">
-    <img src="./screenshot/newsletter4.png" width="300">
-    <img src="./screenshot/newsletter5.png" width="300">
+    <img src="./screenshot/newsletter4.png" width="200">
+    <img src="./screenshot/newsletter5.png" width="200">
 </p>
-...
+
+### 3rd Update (08/27/23)
+- Fixed the script
+    - it had some problems with the buttons' logic
+- Dynamic project
+    - Transforming the email on a variable to show when modal shows up
+
+
+<p float="left">
+    <img src="./screenshot/newsletter6.png" width="200">
+    <img src="./screenshot/newsletter7.png" width="200">
+    <img src="./screenshot/newsletter8.png" width="200">
+    <img src="./screenshot/newsletter9.png" width="200">
+    <img src="./screenshot/newsletter10.png" width="200">
+    <img src="./screenshot/newsletter11.png" width="200">
+    <img src="./screenshot/newsletter12.png" width="200">
+</p>
+
+
+<p>The project is finished!</p>
