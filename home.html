@@ -12,49 +12,55 @@
     <div class="main-content">
         
         <div class="aside-left">
-            <h1>Stay updated!</h1>
-            <p id="description">Join 60.000+ product managers receiving monthly updates on:</p>
+            <div class="control">
+                <h1>Stay updated!</h1>
+                <p id="description">Join 60.000+ product managers receiving monthly updates on:</p>
 
-            <div class="lists">
-                <div class="list">
-                    <img id="icon-topic" src="./assets/images/icon-list.svg">
-                    <p>Product discovery and building what matters</p>
+                <div class="lists">
+                    <div class="list">
+                        <img id="icon-topic" src="./assets/images/icon-list.svg">
+                        <p>Product discovery and building what matters</p>
+                    </div>
+        
+                    <div class="list">
+                        <img id="icon-topic" src="./assets/images/icon-list.svg">
+                        <p>Measuring to ensure updates are a success</p>
+                    </div>
+        
+                    <div class="list">
+                        <img id="icon-topic" src="./assets/images/icon-list.svg">
+                        <p>And much more!</p>
+                    </div>
                 </div>
-    
-                <div class="list">
-                    <img id="icon-topic" src="./assets/images/icon-list.svg">
-                    <p>Measuring to ensure updates are a success</p>
-                </div>
-    
-                <div class="list">
-                    <img id="icon-topic" src="./assets/images/icon-list.svg">
-                    <p>And much more!</p>
-                </div>
+
+                <form action="">
+                    <div class="input">
+                        <span id="error"></span>
+                        <label for="email" id="input-email">E-mail address</label>
+                        <input tabindex="1" type="email" id="email" onblur="isitEmpty()" placeholder="email@company.com">
+        
+                        <button type="button" tabindex="2" id="btn">Subscribe to monthly newsletter</button>
+                    </div>
+                </form>
             </div>
-
-            <form action="">
-                <div class="input">
-                    <span id="error"></span>
-                    <label for="email" id="input-email">E-mail address</label>
-                    <input tabindex="1" type="email" id="email" onblur="isitEmpty()" placeholder="email@company.com">
-    
-                    <button type="button" tabindex="2" id="btn">Subscribe to monthly newsletter</button>
-                </div>
-            </form>
         </div>
         
         <div class="aside-right">
-            <img src="./assets/images/illustration-sign-up-desktop.svg">
+            <div class="background-image">
+
+            </div>
         </div>
         
     </div>
 
     <div class="modal-container">
         <div class="modal-content">
-            <img src="./assets/images/icon-success.svg">
-            <h1>Thanks for subscribing!</h1>
-            <p id="feedback-message"></p>
-            <button id="btn-modal" >Dismiss message</button>
+            <div class="control-modal">
+                <img src="./assets/images/icon-success.svg">
+                <h1>Thanks for subscribing!</h1>
+                <p id="feedback-message"></p>
+                <button id="btn-modal" >Dismiss message</button>
+            </div>
         </div>
     </div>
 

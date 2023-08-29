@@ -11,6 +11,8 @@ btn.disabled = true
 
 btnModal.addEventListener("click", () => {
     modal.style.display = "none"
+    email.value = ""
+    btn.classList.remove("btn-active")
 })
 
 function openModal() {
@@ -43,6 +45,7 @@ function isitEmpty() {
         //console.log("o input ta vazio")
         btn.disabled = true
         btn.classList.remove("btn-active")
+        email.classList.remove("email-invalid")
     }
 }
 
