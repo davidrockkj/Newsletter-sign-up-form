@@ -59,7 +59,9 @@ Built with html and css (till now).
 
 ## Updates
 
-### 1st Update (08/24/23)
+### 1st Update
+08/24/23
+
 - I wrote all the HTML5 structure
     - Heading
     - Description
@@ -83,7 +85,9 @@ Built with html and css (till now).
     <img src="./screenshot/newsletter3.png" width="200">
 </p>
 
-### 2nd Update (08/26/23)
+### 2nd Update
+08/26/23
+
 - Built the Modal
     - Created the static modal "pop-up"
     - Stylized the modal
@@ -94,7 +98,9 @@ Built with html and css (till now).
     <img src="./screenshot/newsletter5.png" width="200">
 </p>
 
-### 3rd Update (08/27/23)
+### 3rd Update
+08/27/23
+
 - Fixed the script
     - it had some problems with the buttons' logic
 - Dynamic project
@@ -110,6 +116,24 @@ Built with html and css (till now).
     <img src="./screenshot/newsletter11.png" width="200">
     <img src="./screenshot/newsletter12.png" width="200">
 </p>
+
+
+### 4th Update
+08/29/23
+
+- Responsiveness
+    - Breakpoint width: 809px
+    - Mobile
+
+
+<p float="left">
+    <img src="./screenshot/newsletter13.png" width="200">
+    <img src="./screenshot/newsletter14.png" width="200">
+    <img src="./screenshot/newsletter15.png" width="200">
+    <img src="./screenshot/newsletter16.png" width="200">
+    <img src="./screenshot/newsletter17.png" width="200">
+</p>
+
 
 
 <p>The project is finished!</p>
