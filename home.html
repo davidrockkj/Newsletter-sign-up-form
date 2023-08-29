@@ -34,11 +34,11 @@
                     </div>
                 </div>
 
-                <form action="">
+                <form action="" id="#myForm">
                     <div class="input">
                         <span id="error"></span>
                         <label for="email" id="input-email">E-mail address</label>
-                        <input tabindex="1" type="email" id="email" onblur="isitEmpty()" placeholder="email@company.com">
+                        <input tabindex="1" type="email" id="email" onblur="isitEmpty()" oninput="vejaAi()" placeholder="email@company.com">
         
                         <button type="button" tabindex="2" id="btn">Subscribe to monthly newsletter</button>
                     </div>

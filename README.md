@@ -46,13 +46,18 @@ Built with html and css (till now).
 
 ### What I Learned
 
-- Onblur
-- Tabindex
+- 'Onblur' Attribute
+- 'Tabindex' Attribute
 - Manipule HTML with JavaScript
 - Manipule CSS with JavaScript
 - Modal
 - Validate an input with JavaScript
-- button.disabled
+- 'Oisabled' Attribute 
+- 'Oninput' Attribute
+- Regex
+- 'Match' Function
+- 'Keypress' Event
+- Keycode value
 
 
 
@@ -124,6 +129,10 @@ Built with html and css (till now).
 - Responsiveness
     - Breakpoint width: 809px
     - Mobile
+- Real-time validation
+    - Keeps validating the email while the user keep the input on focus
+    - By using 'oninput' attribute
+- Submit by pressing 'Enter'
 
 
 <p float="left">
