@@ -6,22 +6,31 @@ let feedbackMessage = document.querySelector("#feedback-message")
 const modal = document.querySelector(".modal-container")
 const mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
 const myForm = document.getElementById("#myForm")
+const myModal = document.getElementById("#myModal")
 
 btn.disabled = true
 
-
-btnModal.addEventListener("click", () => {
+function closeModal() {
     modal.style.display = "none";
     document.getElementById("#myForm").reset();
     btn.classList.remove("btn-active");
     window.location.reload();
-})
+}
+
+btnModal.addEventListener("click", closeModal)
+
 
 function openModal() {
     feedbackMessage.innerHTML = `A confirmation email has been sent to <b>${email.value}</b>. Please, open it and click on the button inside to confirm your subscription.`
     
     modal.style.display = "flex"
 }
+
+window.addEventListener("keyup", function (e) {
+    if(e.code === 'Escape'){
+        closeModal()
+    }
+})
 
 function isitEmpty() {
     if(email.value.length > 0){
@@ -60,6 +69,7 @@ function vejaAi() {
                     openModal()
                 }
             })
+
         } else {
             btn.classList.remove("btn-active")
             btn.disabled = true

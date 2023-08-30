@@ -16,6 +16,7 @@ Built with HTML, CSS and JavaScript.
     - [1st Update](#1st-update)
     - [2nd Update](#2nd-update)
     - [3rd Update](#3rd-update)
+    - [4th Update](#4th-update)
 
 
 ## Overview
@@ -59,7 +60,7 @@ Built with HTML, CSS and JavaScript.
 - 'Keypress' Event
 - Keycode value
 - Form.reset()
-- window.location.reload()
+- window.event
 
 
 
@@ -138,6 +139,10 @@ Built with HTML, CSS and JavaScript.
 - When click on 'Dismiss message'
     - Reset form
     - Reload the page (before that, when press 'Enter' after 'Dismiss message', it was reopening the modal)
+- When pressing 'Escape'
+    - close modal
+    - reset form
+    - refresh page
 
 <p float="left">
     <img src="./screenshot/newsletter13.png" width="200">
