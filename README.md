@@ -1,6 +1,6 @@
 # Frontend Mentor - Newsletter sign-up form with success message
 
-<img src="./screenshot/newsletter.png" height="325">, <img src="./screenshot/newsletter13.png" height="325">
+<img src="./screenshot/newsletter.png" height="320"><img src="./screenshot/newsletter13.png" height="320">
 
 Built with HTML, CSS and JavaScript.
 
