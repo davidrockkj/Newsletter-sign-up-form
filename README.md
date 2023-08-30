@@ -1,8 +1,8 @@
 # Frontend Mentor - Newsletter sign-up form with success message
 
-![Screenshot](./screenshot/newsletter.png)
+<img src="./screenshot/newsletter.png" width="600">, <img src="./screenshot/newsletter13.png" width="200">
 
-Built with html and css (till now).
+Built with HTML, CSS and JavaScript.
 
 ## Sumary
 
@@ -13,9 +13,9 @@ Built with html and css (till now).
     - [Built With](#built-with)
     - [What I Learned](#what-i-learned)
 - [Updates](#updates)
-    - [1st Update](#1st-update-(08/25/23))
-    - [2nd Update](#2nd-update-(08/26/23))
-    - [3rd Update](#3rd-update-(08/27/23))
+    - [1st Update](#1st-update)
+    - [2nd Update](#2nd-update)
+    - [3rd Update](#3rd-update)
 
 
 ## Overview
