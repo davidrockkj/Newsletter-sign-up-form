@@ -11,9 +11,10 @@ btn.disabled = true
 
 
 btnModal.addEventListener("click", () => {
-    modal.style.display = "none"
-    email.value = ""
-    btn.classList.remove("btn-active")
+    modal.style.display = "none";
+    document.getElementById("#myForm").reset();
+    btn.classList.remove("btn-active");
+    window.location.reload();
 })
 
 function openModal() {

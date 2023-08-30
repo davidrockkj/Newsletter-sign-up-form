@@ -58,6 +58,8 @@ Built with HTML, CSS and JavaScript.
 - 'Match' Function
 - 'Keypress' Event
 - Keycode value
+- Form.reset()
+- window.location.reload()
 
 
 
@@ -133,7 +135,9 @@ Built with HTML, CSS and JavaScript.
     - Keeps validating the email while the user keep the input on focus
     - By using 'oninput' attribute
 - Submit by pressing 'Enter'
-
+- When click on 'Dismiss message'
+    - Reset form
+    - Reload the page (before that, when press 'Enter' after 'Dismiss message', it was reopening the modal)
 
 <p float="left">
     <img src="./screenshot/newsletter13.png" width="200">
